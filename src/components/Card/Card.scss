@@ -1,4 +1,7 @@
-// Card.scss
+@use"../../styles/mixins" as *;
+
+
+
 .card {
   background-color: #ffffff;
   border-radius: 8px;
@@ -6,12 +9,17 @@
   padding: 16px;
   margin: 16px;
   text-align: center;
-
-  h2 {
-    color: #333333;
-  }
+  height: auto;
+  width: 22rem;
 
   p {
     color: #666666;
+    background-color: white;
+  }
+  h3 {
+    background-color: white;
+  }
+  img{
+    background-color: white;;
   }
 }
