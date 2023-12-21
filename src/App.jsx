@@ -1,14 +1,15 @@
-import { useState } from 'react'
 
-import './App.css'
+import './App.scss'
+import Card from "./components/Card/Card"
+
 
 function App() {
  
 
   return (
     <>
-    <h1>Hello World</h1>
-    
+   
+    <Card />
     </>
   )
 }
