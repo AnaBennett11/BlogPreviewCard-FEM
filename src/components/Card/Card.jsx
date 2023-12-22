@@ -8,7 +8,12 @@ const Card = () => {
   return (
     <div className="cardContainer">
       <div className="card">
-        <img src={illustration}></img>
+        <img
+          className="illustration"
+          src={illustration}
+          alt="Illustration"
+          style={{ width: "100%" }}
+        />
         <button>Learning</button>
         <p>Published 18 Dec 2023</p>
         <h3>HTML & CSS foundations</h3>
@@ -17,8 +22,8 @@ const Card = () => {
           defining its structure, content, and presentation.
         </p>
         <div className="nameContainer">
-          <img src={avatar}></img>
-          <p>Alexander Frost</p>
+          <img className="avatarImage" src={avatar}></img>
+          <p className="nameSpot">Alexander Frost</p>
         </div>
       </div>
     </div>

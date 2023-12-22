@@ -1,6 +1,8 @@
 @use "../../styles/mixins" as *;
+@use "../../styles/typography" as *;
 
 .cardContainer {
+    font-family: 'Figtree', sans-serif;
      display: flex;
   justify-content: center;
   align-items: center;
@@ -16,6 +18,14 @@
     border-radius:  1.25rem;
     box-shadow: 8px 8px 0px 0px #000;
 
+    button {
+        border: none;
+        margin-top: 4%;
+        width: 82px;
+        height: 29px;
+        border-radius: 4px;
+        font-weight: bold;
+    }
     p {
       color: #666666;
       background-color: white;
@@ -29,6 +39,18 @@
     .nameContainer{
         display: flex;
         background-color: white;
+        flex-direction: row;
+        align-items: center;
+        .avatarImage {
+            width: 32px;
+            height: 32px;
+        }
+        .nameSpot{
+            font-weight: bold;
+            margin-left: 8px;;
+        }
+      
+    
     }
   }
 }
